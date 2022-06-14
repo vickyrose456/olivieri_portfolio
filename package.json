@@ -1,0 +1,31 @@
+{
+  "name": "olivieri-portfolio",
+  "version": "1.0.0",
+  "description": "My professional portfolio",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "nodemon": "nodemon --watch ./src ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickyrose456/olivieri_portfolio.git"
+  },
+  "author": "Victoria Olivieri",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vickyrose456/olivieri_portfolio/issues"
+  },
+  "homepage": "https://github.com/vickyrose456/olivieri_portfolio#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.16"
+  }
+}
