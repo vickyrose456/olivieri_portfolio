@@ -1,6 +1,10 @@
 {
   "name": "olivieri-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "17.3.1",
+    "npm":"8.3.0"
+  },
   "description": "My professional portfolio",
   "main": "./src/server.js",
   "scripts": {
